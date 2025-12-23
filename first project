@@ -1,0 +1,17 @@
+public class Main{
+  public static void main(String[]args){
+
+    for(int t = -6 ; t<=3 ; t++){
+      double x1 = t , y1 =  t * t ;
+      double x2 = -t , y2 = t * t ;
+      double x3 = -t/2.0 , y3 = (t * t)/4.0 ;
+      
+      System.out.println("t =" + t);
+      System.out.println("first piece: x = " + x1 + "y = " + y1);
+      System.out.println("second piece: x = " + x2 + "y = " + y2);
+      System.out.println("third piece: x = " + x3 + "y = " + y3);
+  
+system.out.println("___________________________________________");
+    }
+  }
+}
